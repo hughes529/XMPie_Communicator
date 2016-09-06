@@ -1,0 +1,1446 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XMPieCommunicator</name>
+    </assembly>
+    <members>
+        <member name="T:XMPieCommunicator.Account.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Account.PlanObject">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_Type">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_ExtendedType">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_ReadExpression">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_WriteExpression">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_IOType">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_Comment">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_IsDial">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_Group">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.PlanObject.m_Namespace">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Account.Setting">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.Setting.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.Setting.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Account.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Account.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Account.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Account.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Account.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Account.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Account.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.Setting">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.Setting.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.Setting.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.AssetSourceInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceInfo.m_Type">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceInfo.m_AssemblyPath">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceInfo.m_ClassName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceInfo.m_ControlName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceInfo.m_AssetSourceID">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceInfo.m_Params">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.AssetSourceParameter">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceParameter.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceParameter.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.AssetSourceStruct">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceStruct.m_Params">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceStruct.m_ObjectName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceStruct.m_ProdObjectName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceStruct.m_DllName">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.AssetSourceProviderSupport">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_CopyCreation">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_ThumbnailCreation">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_Browsing">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_PagedBrowsing">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_SortedBrowsing">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_Creation">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_Replacement">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_PropertiesModification">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_Deletion">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.AssetSourceProviderSupport.m_Locking">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.AssetSource.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.AssetSource.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Asset.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Asset.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Asset.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Asset.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Asset.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Asset.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Asset.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Asset.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.PlanObject">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_Type">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_ExtendedType">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_ReadExpression">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_WriteExpression">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_IOType">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_Comment">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_IsDial">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_Group">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.PlanObject.m_Namespace">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.Setting">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.Setting.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.Setting.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Campaign.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Campaign.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.Setting">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.Setting.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.Setting.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.CampaignShortcutInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.CampaignShortcutInfo.m_AccountID">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.CampaignShortcutInfo.m_AccountName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.CampaignShortcutInfo.m_CampaignID">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.CampaignShortcutInfo.m_CampaignName">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Customer.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Customer.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.Setting">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Setting.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Setting.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.ReportMessage">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.ReportMessage.m_Message">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.ReportMessage.m_TypeID">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.ReportMessage.m_Properties">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.Report">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Report.m_Status">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Report.m_Messages">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.DataSource.Connection">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Connection.m_Type">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Connection.m_ConnectionString">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.DataSource.Connection.m_AdditionalInfo">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Destination.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Destination.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Destination.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Destination.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Destination.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Destination.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Destination.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Destination.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Document.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Document.Setting">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.Setting.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.Setting.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Document.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Document.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Document.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Document.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Document.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Document.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Document.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Font.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Font.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Font.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Font.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Font.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Font.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Font.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Font.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobMessage.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobMessage.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobMessage.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobMessage.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobMessage.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobMessage.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobMessage.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobMessage.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.Customization">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Customization.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Customization.m_Type">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Customization.m_IOType">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Customization.m_Expression">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.SubJobInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.SubJobInfo.m_Index">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.SubJobInfo.m_SplitNum">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.SubJobInfo.m_SplitType">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.SubJobInfo.m_OrigFrom">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.SubJobInfo.m_OrigTo">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.Connection">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Connection.m_Type">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Connection.m_ConnectionString">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Connection.m_AdditionalInfo">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.RecipientsInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.RecipientsInfo.m_From">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.RecipientsInfo.m_To">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.RecipientsInfo.m_FilterType">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.RecipientsInfo.m_Filter">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.RecipientsInfo.m_SubFilter">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.AssetSourceParameter">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceParameter.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceParameter.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.AssetSourceInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceInfo.m_Type">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceInfo.m_AssemblyPath">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceInfo.m_ClassName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceInfo.m_ControlName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceInfo.m_AssetSourceID">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceInfo.m_Params">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.AssetSourceStruct">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceStruct.m_Params">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceStruct.m_ObjectName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceStruct.m_ProdObjectName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.AssetSourceStruct.m_DllName">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.URLInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.URLInfo.m_ProxyServer">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.URLInfo.m_ProxyPort">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.URLInfo.m_BaseURL">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.URLInfo.m_Charset">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.EmailBodyOptions">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailBodyOptions.m_EmbedResources">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailBodyOptions.m_Charset">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.EmailBodyInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailBodyInfo.m_Content">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailBodyInfo.m_ContentType">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailBodyInfo.m_Format">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailBodyInfo.m_BodyOptions">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailBodyInfo.m_URLInfo">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.EmailAddress">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailAddress.m_Address">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailAddress.m_Display">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.EmailHeaderInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailHeaderInfo.m_Subject">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailHeaderInfo.m_To">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailHeaderInfo.m_CC">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailHeaderInfo.m_BCC">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailHeaderInfo.m_From">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailHeaderInfo.m_ReplyTo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailHeaderInfo.m_Charset">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.EmailProviderParameter">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailProviderParameter.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailProviderParameter.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.EmailProviderInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailProviderInfo.m_Type">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailProviderInfo.m_AssemblyPath">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailProviderInfo.m_ClassName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailProviderInfo.m_ControlName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.EmailProviderInfo.m_Params">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.JobTicket.Parameter">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Parameter.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.JobTicket.Parameter.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.CampaignShortcutInfo">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.CampaignShortcutInfo.m_AccountID">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.CampaignShortcutInfo.m_AccountName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.CampaignShortcutInfo.m_CampaignID">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.CampaignShortcutInfo.m_CampaignName">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Job.OutputResult">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.OutputResult.m_FileName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.OutputResult.m_FilePath">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.OutputResult.m_SizeKB">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Job.OutputResult.m_ModifDateStr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.ReportMessage">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.ReportMessage.m_Message">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.ReportMessage.m_TypeID">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.ReportMessage.m_Properties">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.Report">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.Report.m_Status">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.Report.m_Messages">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.Setting">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.Setting.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.Setting.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Plan.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Plan.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Production.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Production.OnDemandOutputResult">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.OnDemandOutputResult.m_Status">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.OnDemandOutputResult.m_Message">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.OnDemandOutputResult.m_FileName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.OnDemandOutputResult.m_FileSize">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.OnDemandOutputResult.m_FileToken">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.Production.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.Production.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.User.XMPUser">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPUser.Username">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPUser.Password">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPUser.AnyAttr">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.User.XMPRowField">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPRowField.m_FieldValue">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.User.XMPTblRow">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPTblRow.m_Fields">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.User.XMPTblColumn">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPTblColumn.m_ColumnName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPTblColumn.m_ColumnType">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.User.XMPTbl">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPTbl.m_TableName">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPTbl.m_ColumnNameArray">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPTbl.m_RowArray">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.User.XMPTblDataSet">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.XMPTblDataSet.m_Tables">
+            <remarks/>
+        </member>
+        <member name="T:XMPieCommunicator.User.Property">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.Property.m_Name">
+            <remarks/>
+        </member>
+        <member name="P:XMPieCommunicator.User.Property.m_Value">
+            <remarks/>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.#ctor(System.String,System.String)">
+            <summary>
+            Constructor, must pass in valid username and password
+            </summary>
+            <param name="userName"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.setAccountID(System.String)">
+            <summary>
+            validates and sets the given AccountID
+            </summary>
+            <param name="accountID"></param>
+            <returns>boolean if  AccountID was successfully validated</returns>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.setCampaignID(System.String)">
+            <summary>
+            validates and sets the given CampaignID
+            </summary>
+            <param name="campaignID"></param>
+            <returns>boolean if  CampaginID was successfully validated</returns>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.setDocumentID(System.String)">
+            <summary>
+            validates and sets the given DocumentID
+            </summary>
+            <param name="docID"></param>
+            <returns>boolean if  DocumentID was successfully validated</returns>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.uploadData(System.String)">
+            <summary>
+            uploades a single file to the set campaign, throws error if accountID, campaignID, or documentID have not been set
+            </summary>
+            <param name="filePath">the full path of the data source to upload</param>
+            <returns>the ID of the new data source</returns>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.uploadData(System.String[])">
+            <summary>
+            Uploadeds multiple datasources to the set campaign, throws error if accountID, campaignID, or documentID have not been set
+            </summary>
+            <param name="filePaths">array of data source paths to upload</param>
+            <returns>dictionary of data source IDs with the key being the filename</returns>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.getSchemas">
+            <summary>
+            gets all associated Schemas for the set Campaign, throws error if accountID, campaignID, or documentID have not been set 
+            </summary>
+            <returns>array of all schmeas in the plan</returns>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.processJob(System.Collections.Generic.Dictionary{System.String,System.String},System.Int32,System.String,System.String,System.Boolean)">
+            <summary>
+            submits a job to the uProduce server
+            </summary>
+            <param name="dataDictionary">Dictionary that contains the mapping between schema values and datatSource IDs, MUST CONTAIN RecipientInfo KEY AND VALUE FOR IT'S DATASOURCE</param>
+            <param name="batchQTY">Quantity per batch</param>
+            <param name="outputFileName">Filename for output</param>
+            <param name="outputFolderPath">full network path to output file(s)</param>
+            <param name="makeVIPPS">indicates if VIPSS should be produced</param>
+            <returns>JobID for submitted job</returns>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.getErrorMessage(System.String)">
+            <summary>
+            gets any error messages from uProduce with the associated JobID
+            </summary>
+            <param name="JobID"></param>
+            <returns>array of error messages</returns>
+        </member>
+        <member name="M:XMPieCommunicator.XMPie_Communicator.getJobStatus(System.String)">
+            <summary>
+            gets status of submitted job  
+            </summary>
+            <param name="JobID"></param>
+            <returns>description of status from uProduce</returns>
+        </member>
+    </members>
+</doc>
